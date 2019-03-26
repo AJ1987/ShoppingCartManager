@@ -1,0 +1,95 @@
+MacBook
+
+[
+  {
+    "productId": 1,
+    "productName": "MacBook Pro",
+    "productShortName": "Mac",
+    "productSKU": "43N23P",
+    "productPrice": 5399.99,
+    "inventoryQty": 10,
+    "discountType": 2,
+    "discountValue": 0
+  },
+  {
+    "productId": 2,
+    "productName": "Raspberry Pi B",
+    "productShortName": "Rash",
+    "productSKU": "234234",
+    "productPrice": 30.00,
+    "inventoryQty": 2,
+    "discountType": 2,
+    "discountValue": 0
+  }
+]
+
+Alexa:
+
+[
+  {
+    "productId": 1,
+    "productName": "Alexa Speaker",
+    "productShortName": "Alexa",
+    "productSKU": "A304SD",
+    "productPrice": 109.50,
+    "inventoryQty": 10,
+    "discountType": 0,
+    "discountValue": 0
+  },
+  {
+    "productId": 2,
+    "productName": "Alexa Speaker",
+    "productShortName": "Alexa",
+    "productSKU": "A304SD",
+    "productPrice": 109.50,
+    "inventoryQty": 10,
+    "discountType": 0,
+    "discountValue": 0
+  },
+ {
+    "productId": 3,
+    "productName": "Alexa Speaker",
+    "productShortName": "Alexa",
+    "productSKU": "A304SD",
+    "productPrice": 109.50,
+    "inventoryQty": 10,
+    "discountType": 0,
+    "discountValue": 0
+  }
+]
+
+
+GoogleHome:
+
+[
+  {
+    "productId": 1,
+    "productName": "Google Home",
+    "productShortName": "GH",
+    "productSKU": "120P90",
+    "productPrice": 49.99,
+    "inventoryQty": 10,
+    "discountType": 1,
+    "discountValue": 0
+  },
+  {
+    "productId": 2,
+    "productName": "Google Home",
+    "productShortName": "GH",
+    "productSKU": "120P90",
+    "productPrice": 49.99,
+    "inventoryQty": 10,
+    "discountType": 1,
+    "discountValue": 0
+  },
+ {
+    "productId": 3,
+    "productName": "Google Home",
+    "productShortName": "AGH",
+    "productSKU": "120P90",
+    "productPrice": 49.99,
+    "inventoryQty": 10,
+    "discountType": 1,
+    "discountValue": 0
+  }
+]

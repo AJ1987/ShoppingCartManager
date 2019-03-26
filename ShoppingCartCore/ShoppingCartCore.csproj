@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Serivces\" />
+    <Folder Include="Entities\ResponseDTO\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCartCommon\ShoppingCartCommon.csproj" />
   </ItemGroup>
 
 </Project>
