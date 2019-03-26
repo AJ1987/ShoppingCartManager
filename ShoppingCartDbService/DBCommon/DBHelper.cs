@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ShoppingCartDbService.DBCommon
 {
-    class DBHelper
+    public class DBHelper
     {
+
     }
 }

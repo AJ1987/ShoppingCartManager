@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using ShoppingCartCore.Interfaces.IServices;
+using ShoppingCartCore.Serivces;
 
 namespace ShoppingCartManager
 {
@@ -28,6 +30,11 @@ namespace ShoppingCartManager
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            services.AddScoped<IPromoCheckoutSerivce, PromoCheckoutService>();
+            //cros                      
+            services.AddCors(options =>
+                                     options.AddPolicy("cors", p => p.WithOrigins("http://localhost:62793").AllowAnyMethod().AllowAnyHeader()));
+      
             //Add swagger
             services.AddSwaggerGen(c =>
             {
@@ -37,15 +44,10 @@ namespace ShoppingCartManager
                     Version = "v1",
                     Description = "ShoppingCartManager Documents",
                     TermsOfService = "AJ"
-                });
-
+                });               
                 var basePath = AppContext.BaseDirectory;
                 var xmlPath = Path.Combine(basePath, "ShoppingCartManager.xml");
-                //var xmlPathByModel = Path.Combine(basePath, "");
-
-                //c.IncludeXmlComments(xmlPathByModel);
                 c.IncludeXmlComments(xmlPath, true);
-
             });
         }
 
@@ -61,6 +63,8 @@ namespace ShoppingCartManager
                 app.UseHsts();
             }
 
+            app.UseCors("cors");
+
             app.UseHttpsRedirection();
             app.UseMvc();
 
@@ -70,6 +74,7 @@ namespace ShoppingCartManager
                 c.ShowExtensions();
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1 Docs");
             });
+
 
         }
     }
