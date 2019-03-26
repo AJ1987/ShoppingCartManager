@@ -6,6 +6,14 @@
  2. Buy 3 Google Homes for the price of 2 
  3.  Buying more than 3 Alexa Speakers will have a 10% discount on all Alexa speakers 
 
+
+| SKU | Name | Price | InventoryQty |
+|:---:|:----:|:-----:|:------------:|
+| 120P90 | Google Home | $49.99 | 10 |
+| 43N23P | MacBook Pro | $5,399.99 | 5 |
+| A304SD | Alexa Speaker | $109.50 | 10 |
+| 234234 | Raspberry Pi B | $30.00 | 2 |
+
 ### Example Scenarios: 
 
 * Scanned Items: MacBook Pro, Raspberry Pi B  <br>
