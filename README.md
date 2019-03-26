@@ -1,14 +1,6 @@
 #  Shopping Cart 
 
-## Test for building the checkout business 
-## to support different promotions with the given inventory
-
-SKU | Name | Price | Inventory | Qty
------------- | ------------- | ------------ | ------------
-120P90 | Google Home  | $49.99 | 10 
-43N23P | MacBook Pro  | $5,399.99 | 5
-A304SD | Alexa Speaker | $109.50 | 10 
-A304SE | Raspberry Pi B | $30.00 | 2 
+## Test for building the checkout business to support different promotions with the given inventory
 
  1. Each sale of a MacBook Pro comes with a free Raspberry Pi B 
  2. Buy 3 Google Homes for the price of 2 
